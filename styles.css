@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+.flex img{
+    max-width: 100%;
+    max-height: 450px;
+}
+.card{
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    background-color: rgb(253, 89, 89);
+    padding: 18px 18px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.comments img{
+    max-width: 20px; 
+    max-height: 20px;
+}
+
+.icon{
+    flex-direction: column;
+}
